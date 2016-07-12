@@ -1,0 +1,21 @@
+{
+  "name": "lec01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./add.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "test": "mocha ./test",
+    "test:unit": "mocha -R nyan -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
